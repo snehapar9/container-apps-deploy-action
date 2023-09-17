@@ -36,7 +36,7 @@ jobs:
         with:
           repository: microsoft/Oryx
           path: oryx
-
+      - uses: elstudio/action-install-azure-cli@v1
       - name: Log in to Azure
         uses: azure/login@v1
         with:
